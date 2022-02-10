@@ -7,6 +7,26 @@
   pointer-events: none;
 }
 
+.black-nav {
+  background: black;
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.myList {
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.modal {
+  margin-top: 20px;
+  background-color: gray;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
